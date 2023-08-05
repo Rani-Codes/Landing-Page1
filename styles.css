@@ -43,16 +43,12 @@ li {
 .s1 {
     display: flex;
     justify-content: center;
-    gap: 108px;
-    margin-top: 50px;
+    gap: 10%;
+    padding: 50px 0px;
 }
 
-.s1-group1 {
+.s1-group1, .s1-group2{
     flex: 0 350px;
-}
-
-.s1-group2 {
-
 }
 
 .s1-group1 h1 {
@@ -78,5 +74,32 @@ li {
 }
 
 .s1-group2 img {
-    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.s2-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.s2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s2-group {
+    flex: 0 150px;
+    max-height: 150px;
+}
+
+.s2 .info {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
