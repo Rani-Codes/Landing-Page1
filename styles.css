@@ -79,6 +79,10 @@ li {
     object-fit: cover;
 }
 
+.s2 {
+    padding: 25px 0px 100px;
+}
+
 .s2-header{
     display: flex;
     justify-content: center;
@@ -86,11 +90,14 @@ li {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 0;
+    margin-bottom: 25px;
 }
 
-.s2 {
+.s2-body {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10%;
 }
 
 .s2-group {
@@ -98,8 +105,15 @@ li {
     max-height: 150px;
 }
 
-.s2 .info {
+.s2-body .info {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border: solid firebrick 3px;
+    border-radius: 10px;
 }
+
+.s2-group p {
+    text-align: center;
+}
+
