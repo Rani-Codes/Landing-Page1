@@ -117,3 +117,31 @@ li {
     text-align: center;
 }
 
+.s3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 0px;
+}
+
+.s3-quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.s3-credit {
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+
+
